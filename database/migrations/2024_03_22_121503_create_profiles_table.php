@@ -36,6 +36,7 @@ return new class extends Migration
             $table->string('myers_briggs')->nullable();
             $table->string('disc')->nullable();
             $table->string('enneagram')->nullable();
+            $table->string('love_language')->nullable();
             $table->string('exercise')->nullable();
             $table->string('political_views')->nullable();
             $table->string('education')->nullable();
@@ -62,7 +63,7 @@ return new class extends Migration
             $table->string('income')->nullable();
             $table->string('headline')->nullable();
             $table->text('about')->nullable();
-            $table->string('personality')->nullable();
+            $table->text('personality')->nullable();
             $table->text('interests')->nullable();
             $table->text('desc_yourself')->nullable();
             $table->text('desc_your_interested_in')->nullable();

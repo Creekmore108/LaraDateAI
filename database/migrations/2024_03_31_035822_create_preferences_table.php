@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('seeking_myers_briggs')->nullable();
             $table->string('seeking_disc')->nullable();
             $table->string('seeking_enneagram')->nullable();
+            $table->string('love_language')->nullable();
             $table->string('seeking_body_type')->nullable();
             $table->string('seeking_hair_color')->nullable();
             $table->string('seeking_hair_style')->nullable();

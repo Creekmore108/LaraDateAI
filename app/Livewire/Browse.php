@@ -12,6 +12,7 @@ class Browse extends Component
     public $results;
     public function mount()
     {
+        // $this->results = User::latest()->get();
         $this->results = DB::table('users')
             ->join('profiles', 'profiles.user_id', '=', 'users.id')
             ->get();

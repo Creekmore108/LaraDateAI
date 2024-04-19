@@ -28,6 +28,7 @@ class PreferenceFactory extends Factory
             'seeking_myers_briggs' => $this->faker->randomElement(['ENFP','ESFJ','INFJ','ISTJ','INTP']),
             'seeking_disc' => $this->faker->randomElement(['D','S','I','C']),
             'seeking_enneagram' => $this->faker->randomElement(['1','2','3','4','5','6','7','8','9']),
+            'love_language' => $this->faker->randomElement(['Words of Affirmation','Quality Time','Receiving Gifts','Acts of Service','Physical Touch']),
             'seeking_body_type' => $this->faker->randomElement(['slim/slender', 'average/medium', 'a few extra pounds', 'muscular/athletic','curvy','voluptuous','big and beautiful','stocky','large','extra large','disabled','prefer to not say']),
             'seeking_hair_color' => $this->faker->randomElement(['blonde', 'strawberry blonde', 'dark blonde', 'brown','light brown','dark brown','auburn/red','black','silver','grey','white','salt and pepper','multi-colored','no hair']),
             'seeking_hair_style' => $this->faker->randomElement(['Short Straight','Medium Straight','Long Straight','Short Curly/Wavy','Long Curly/Wavy','Shaved Close','Locks','No Hair','Pleasantly Sparse']),
